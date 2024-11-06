@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run build && five-server .",
+    "build": "esbuild src/index.jsx --bundle --outdir=dist/"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "five-server": "^0.3.3"
+  },
+  "keywords": []
+}
